@@ -25,5 +25,19 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "quotes": [
+            "error",
+            "double",
+            {
+                "avoidEscape": true
+            }
+        ],
+        "@typescript-eslint/quotes": [
+            "error",
+            "double",
+            {
+                "avoidEscape": true
+            }
+        ]
     }
 }
