@@ -1,0 +1,17 @@
+{
+	"conventionalCommits.scopes": ["package", "linting"],
+	"editor.formatOnSave": true,
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false
+	},
+	"javascript.validate.enable": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.fixAll.tslint": true,
+		"source.fixAll.stylelint": true,
+		"source.organizeImports": true
+	}
+}
