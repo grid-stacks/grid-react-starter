@@ -11,7 +11,9 @@
 		"lint:fix": "eslint --fix .",
 		"prettier": "prettier --check .",
 		"prettier:fix": "prettier --write .",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"clean:npm": "npm cache clean --force && rm -rf node_modules && npm i",
+		"clean:yarn": "npm cache clean --force && rm -rf node_modules && yarn"
 	},
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.4",
